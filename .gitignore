@@ -1,0 +1,12 @@
+﻿venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+nifty100.db
+data/raw/*.xlsx
+data/supporting/*.xlsx
+output/*.csv
+.DS_Store
+Thumbs.db
