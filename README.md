@@ -3,6 +3,13 @@
 Matches your uploaded spec (`Nifty100_Project_Document_FINAL.pdf`) and Drive folders
 ("Datasets" + "Supporting Datasets").
 
+> **Note:** This repo does NOT include the source `.xlsx` data files, the built
+> `nifty100.db`, or `.env` (see `.gitignore`) — they're excluded on purpose since
+> the data is licensed/private and the database is just a build artifact.
+> To run this yourself: copy `.env.example` to `.env`, add your own 12 Excel
+> files as described below, then run `make load` (or the manual commands in
+> the Quick-Start section) to regenerate `nifty100.db` locally.
+
 ## Where to put your 12 files
 ```
 data/raw/companies.xlsx
