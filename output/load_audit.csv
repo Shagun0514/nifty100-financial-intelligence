@@ -1,0 +1,13 @@
+table,file,rows_read,rows_loaded,rows_rejected,error
+companies,data/raw\companies.xlsx,92,92,0,
+sectors,data/supporting\sectors.xlsx,92,92,0,
+profitandloss,data/raw\profitandloss.xlsx,1276,1082,194,
+balancesheet,data/raw\balancesheet.xlsx,1312,1227,85,
+cashflow,data/raw\cashflow.xlsx,1187,1091,96,
+analysis,data/raw\analysis.xlsx,20,16,4,
+documents,data/raw\documents.xlsx,1585,1457,128,
+prosandcons,data/raw\prosandcons.xlsx,16,14,2,
+stock_prices,data/supporting\stock_prices.xlsx,5520,5520,0,
+market_cap,data/supporting\market_cap.xlsx,552,552,0,
+financial_ratios,data/supporting\financial_ratios.xlsx,1184,1160,24,
+peer_groups,data/supporting\peer_groups.xlsx,56,56,0,

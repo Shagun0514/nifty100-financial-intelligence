@@ -1,0 +1,534 @@
+table,file,row_index,reason
+profitandloss,data/raw\profitandloss.xlsx,12,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,24,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,37,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,46,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,59,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,72,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,85,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,96,bad year 'Mar 2023 15': PARSE_ERROR: 'Mar 2023 15'
+profitandloss,data/raw\profitandloss.xlsx,98,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,111,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,124,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,132,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,145,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,158,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,171,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,184,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,195,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,208,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,221,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,234,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,247,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,260,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,273,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,286,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,299,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,312,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,325,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,338,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,351,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,364,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,377,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,390,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,403,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,416,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,429,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,442,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,455,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,468,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,481,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,485,bad year 'Mar 2016 9m': PARSE_ERROR: 'Mar 2016 9m'
+profitandloss,data/raw\profitandloss.xlsx,494,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,507,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,520,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,532,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,545,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,558,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,571,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,584,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,597,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,610,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,623,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,636,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,647,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,660,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,673,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,686,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,689,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,702,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,715,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,728,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,735,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,748,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,761,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,774,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,787,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,800,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,813,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,826,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,839,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,852,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,865,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,878,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,891,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,904,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,917,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,930,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,943,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,956,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,969,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,982,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,986,bad year 'Mar 2016 9m': PARSE_ERROR: 'Mar 2016 9m'
+profitandloss,data/raw\profitandloss.xlsx,995,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,1008,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,1033,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,1046,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,1059,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,1072,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,1085,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,1098,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,1111,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,1124,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,1137,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,1150,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,1163,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,1164,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2013-03']
+profitandloss,data/raw\profitandloss.xlsx,1165,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2014-03']
+profitandloss,data/raw\profitandloss.xlsx,1166,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2015-03']
+profitandloss,data/raw\profitandloss.xlsx,1167,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2016-03']
+profitandloss,data/raw\profitandloss.xlsx,1168,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2017-03']
+profitandloss,data/raw\profitandloss.xlsx,1169,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2018-03']
+profitandloss,data/raw\profitandloss.xlsx,1170,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2019-03']
+profitandloss,data/raw\profitandloss.xlsx,1171,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2020-03']
+profitandloss,data/raw\profitandloss.xlsx,1172,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2021-03']
+profitandloss,data/raw\profitandloss.xlsx,1173,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2022-03']
+profitandloss,data/raw\profitandloss.xlsx,1174,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2023-03']
+profitandloss,data/raw\profitandloss.xlsx,1175,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2024-03']
+profitandloss,data/raw\profitandloss.xlsx,1176,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,1177,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2013-03']
+profitandloss,data/raw\profitandloss.xlsx,1178,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2014-03']
+profitandloss,data/raw\profitandloss.xlsx,1179,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2015-03']
+profitandloss,data/raw\profitandloss.xlsx,1180,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2016-03']
+profitandloss,data/raw\profitandloss.xlsx,1181,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2017-03']
+profitandloss,data/raw\profitandloss.xlsx,1182,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2018-03']
+profitandloss,data/raw\profitandloss.xlsx,1183,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2019-03']
+profitandloss,data/raw\profitandloss.xlsx,1184,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2020-03']
+profitandloss,data/raw\profitandloss.xlsx,1185,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2021-03']
+profitandloss,data/raw\profitandloss.xlsx,1186,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2022-03']
+profitandloss,data/raw\profitandloss.xlsx,1187,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2023-03']
+profitandloss,data/raw\profitandloss.xlsx,1188,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2024-03']
+profitandloss,data/raw\profitandloss.xlsx,1189,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,1190,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2013-03']
+profitandloss,data/raw\profitandloss.xlsx,1191,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2014-03']
+profitandloss,data/raw\profitandloss.xlsx,1192,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2015-03']
+profitandloss,data/raw\profitandloss.xlsx,1193,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2016-03']
+profitandloss,data/raw\profitandloss.xlsx,1194,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2017-03']
+profitandloss,data/raw\profitandloss.xlsx,1195,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2018-03']
+profitandloss,data/raw\profitandloss.xlsx,1196,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2019-03']
+profitandloss,data/raw\profitandloss.xlsx,1197,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2020-03']
+profitandloss,data/raw\profitandloss.xlsx,1198,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2021-03']
+profitandloss,data/raw\profitandloss.xlsx,1199,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2022-03']
+profitandloss,data/raw\profitandloss.xlsx,1200,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2023-03']
+profitandloss,data/raw\profitandloss.xlsx,1201,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2024-03']
+profitandloss,data/raw\profitandloss.xlsx,1202,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,1203,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2012-12']
+profitandloss,data/raw\profitandloss.xlsx,1204,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2013-12']
+profitandloss,data/raw\profitandloss.xlsx,1205,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2014-12']
+profitandloss,data/raw\profitandloss.xlsx,1206,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2015-12']
+profitandloss,data/raw\profitandloss.xlsx,1207,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2016-12']
+profitandloss,data/raw\profitandloss.xlsx,1208,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2017-12']
+profitandloss,data/raw\profitandloss.xlsx,1209,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2018-12']
+profitandloss,data/raw\profitandloss.xlsx,1210,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2019-12']
+profitandloss,data/raw\profitandloss.xlsx,1211,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2020-12']
+profitandloss,data/raw\profitandloss.xlsx,1212,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2021-12']
+profitandloss,data/raw\profitandloss.xlsx,1213,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2022-12']
+profitandloss,data/raw\profitandloss.xlsx,1214,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2023-12']
+profitandloss,data/raw\profitandloss.xlsx,1215,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,1216,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2013-03']
+profitandloss,data/raw\profitandloss.xlsx,1217,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2014-03']
+profitandloss,data/raw\profitandloss.xlsx,1218,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2015-03']
+profitandloss,data/raw\profitandloss.xlsx,1219,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2016-03']
+profitandloss,data/raw\profitandloss.xlsx,1220,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2017-03']
+profitandloss,data/raw\profitandloss.xlsx,1221,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2018-03']
+profitandloss,data/raw\profitandloss.xlsx,1222,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2019-03']
+profitandloss,data/raw\profitandloss.xlsx,1223,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2020-03']
+profitandloss,data/raw\profitandloss.xlsx,1224,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2021-03']
+profitandloss,data/raw\profitandloss.xlsx,1225,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2022-03']
+profitandloss,data/raw\profitandloss.xlsx,1226,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2023-03']
+profitandloss,data/raw\profitandloss.xlsx,1227,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2024-03']
+profitandloss,data/raw\profitandloss.xlsx,1228,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,1229,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2013-03']
+profitandloss,data/raw\profitandloss.xlsx,1230,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2014-03']
+profitandloss,data/raw\profitandloss.xlsx,1231,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2015-03']
+profitandloss,data/raw\profitandloss.xlsx,1232,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2016-03']
+profitandloss,data/raw\profitandloss.xlsx,1233,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2017-03']
+profitandloss,data/raw\profitandloss.xlsx,1234,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2018-03']
+profitandloss,data/raw\profitandloss.xlsx,1235,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2019-03']
+profitandloss,data/raw\profitandloss.xlsx,1236,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2020-03']
+profitandloss,data/raw\profitandloss.xlsx,1237,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2021-03']
+profitandloss,data/raw\profitandloss.xlsx,1238,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2022-03']
+profitandloss,data/raw\profitandloss.xlsx,1239,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2023-03']
+profitandloss,data/raw\profitandloss.xlsx,1240,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2024-03']
+profitandloss,data/raw\profitandloss.xlsx,1241,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,1242,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year='2018-03']
+profitandloss,data/raw\profitandloss.xlsx,1243,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year='2019-03']
+profitandloss,data/raw\profitandloss.xlsx,1244,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year='2020-03']
+profitandloss,data/raw\profitandloss.xlsx,1245,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year='2021-03']
+profitandloss,data/raw\profitandloss.xlsx,1246,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year='2022-03']
+profitandloss,data/raw\profitandloss.xlsx,1247,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year='2023-03']
+profitandloss,data/raw\profitandloss.xlsx,1248,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year='2024-03']
+profitandloss,data/raw\profitandloss.xlsx,1249,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,1250,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2013-03']
+profitandloss,data/raw\profitandloss.xlsx,1251,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2014-03']
+profitandloss,data/raw\profitandloss.xlsx,1252,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2015-03']
+profitandloss,data/raw\profitandloss.xlsx,1253,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2016-03']
+profitandloss,data/raw\profitandloss.xlsx,1254,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2017-03']
+profitandloss,data/raw\profitandloss.xlsx,1255,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2018-03']
+profitandloss,data/raw\profitandloss.xlsx,1256,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2019-03']
+profitandloss,data/raw\profitandloss.xlsx,1257,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2020-03']
+profitandloss,data/raw\profitandloss.xlsx,1258,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2021-03']
+profitandloss,data/raw\profitandloss.xlsx,1259,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2022-03']
+profitandloss,data/raw\profitandloss.xlsx,1260,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2023-03']
+profitandloss,data/raw\profitandloss.xlsx,1261,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2024-03']
+profitandloss,data/raw\profitandloss.xlsx,1262,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+profitandloss,data/raw\profitandloss.xlsx,1275,"bad year 'TTM': TTM (Trailing Twelve Months) is not an annual period - intentionally skipped, not a data error"
+balancesheet,data/raw\balancesheet.xlsx,1033,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2013-03']
+balancesheet,data/raw\balancesheet.xlsx,1034,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2014-03']
+balancesheet,data/raw\balancesheet.xlsx,1035,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2015-03']
+balancesheet,data/raw\balancesheet.xlsx,1036,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2016-03']
+balancesheet,data/raw\balancesheet.xlsx,1037,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2017-03']
+balancesheet,data/raw\balancesheet.xlsx,1038,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2018-03']
+balancesheet,data/raw\balancesheet.xlsx,1039,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2019-03']
+balancesheet,data/raw\balancesheet.xlsx,1040,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2020-03']
+balancesheet,data/raw\balancesheet.xlsx,1041,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2021-03']
+balancesheet,data/raw\balancesheet.xlsx,1042,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2022-03']
+balancesheet,data/raw\balancesheet.xlsx,1043,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2023-03']
+balancesheet,data/raw\balancesheet.xlsx,1044,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2024-03']
+balancesheet,data/raw\balancesheet.xlsx,1045,bad year '2024.5': PARSE_ERROR: '2024.5'
+balancesheet,data/raw\balancesheet.xlsx,1059,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year='2018-03']
+balancesheet,data/raw\balancesheet.xlsx,1060,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year='2019-03']
+balancesheet,data/raw\balancesheet.xlsx,1061,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year='2020-03']
+balancesheet,data/raw\balancesheet.xlsx,1062,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year='2021-03']
+balancesheet,data/raw\balancesheet.xlsx,1063,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year='2022-03']
+balancesheet,data/raw\balancesheet.xlsx,1064,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year='2023-03']
+balancesheet,data/raw\balancesheet.xlsx,1065,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year='2024-03']
+balancesheet,data/raw\balancesheet.xlsx,1066,bad year '2024.5': PARSE_ERROR: '2024.5'
+balancesheet,data/raw\balancesheet.xlsx,1067,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2013-03']
+balancesheet,data/raw\balancesheet.xlsx,1068,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2014-03']
+balancesheet,data/raw\balancesheet.xlsx,1069,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2015-03']
+balancesheet,data/raw\balancesheet.xlsx,1070,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2016-03']
+balancesheet,data/raw\balancesheet.xlsx,1071,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2017-03']
+balancesheet,data/raw\balancesheet.xlsx,1072,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2018-03']
+balancesheet,data/raw\balancesheet.xlsx,1073,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2019-03']
+balancesheet,data/raw\balancesheet.xlsx,1074,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2020-03']
+balancesheet,data/raw\balancesheet.xlsx,1075,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2021-03']
+balancesheet,data/raw\balancesheet.xlsx,1076,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2022-03']
+balancesheet,data/raw\balancesheet.xlsx,1077,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2023-03']
+balancesheet,data/raw\balancesheet.xlsx,1078,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2024-03']
+balancesheet,data/raw\balancesheet.xlsx,1079,bad year '2024.5': PARSE_ERROR: '2024.5'
+balancesheet,data/raw\balancesheet.xlsx,1080,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2013-03']
+balancesheet,data/raw\balancesheet.xlsx,1081,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2014-03']
+balancesheet,data/raw\balancesheet.xlsx,1082,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2015-03']
+balancesheet,data/raw\balancesheet.xlsx,1083,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2016-03']
+balancesheet,data/raw\balancesheet.xlsx,1084,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2017-03']
+balancesheet,data/raw\balancesheet.xlsx,1085,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2018-03']
+balancesheet,data/raw\balancesheet.xlsx,1086,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2019-03']
+balancesheet,data/raw\balancesheet.xlsx,1087,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2020-03']
+balancesheet,data/raw\balancesheet.xlsx,1088,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2021-03']
+balancesheet,data/raw\balancesheet.xlsx,1089,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2022-03']
+balancesheet,data/raw\balancesheet.xlsx,1090,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2023-03']
+balancesheet,data/raw\balancesheet.xlsx,1091,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2024-03']
+balancesheet,data/raw\balancesheet.xlsx,1092,bad year '2024.5': PARSE_ERROR: '2024.5'
+balancesheet,data/raw\balancesheet.xlsx,1118,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2013-03']
+balancesheet,data/raw\balancesheet.xlsx,1119,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2014-03']
+balancesheet,data/raw\balancesheet.xlsx,1120,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2015-03']
+balancesheet,data/raw\balancesheet.xlsx,1121,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2016-03']
+balancesheet,data/raw\balancesheet.xlsx,1122,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2017-03']
+balancesheet,data/raw\balancesheet.xlsx,1123,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2018-03']
+balancesheet,data/raw\balancesheet.xlsx,1124,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2019-03']
+balancesheet,data/raw\balancesheet.xlsx,1125,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2020-03']
+balancesheet,data/raw\balancesheet.xlsx,1126,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2021-03']
+balancesheet,data/raw\balancesheet.xlsx,1127,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2022-03']
+balancesheet,data/raw\balancesheet.xlsx,1128,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2023-03']
+balancesheet,data/raw\balancesheet.xlsx,1129,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2024-03']
+balancesheet,data/raw\balancesheet.xlsx,1130,bad year '2024.5': PARSE_ERROR: '2024.5'
+balancesheet,data/raw\balancesheet.xlsx,1131,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2013-03']
+balancesheet,data/raw\balancesheet.xlsx,1132,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2014-03']
+balancesheet,data/raw\balancesheet.xlsx,1133,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2015-03']
+balancesheet,data/raw\balancesheet.xlsx,1134,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2016-03']
+balancesheet,data/raw\balancesheet.xlsx,1135,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2017-03']
+balancesheet,data/raw\balancesheet.xlsx,1136,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2018-03']
+balancesheet,data/raw\balancesheet.xlsx,1137,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2019-03']
+balancesheet,data/raw\balancesheet.xlsx,1138,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2020-03']
+balancesheet,data/raw\balancesheet.xlsx,1139,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2021-03']
+balancesheet,data/raw\balancesheet.xlsx,1140,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2022-03']
+balancesheet,data/raw\balancesheet.xlsx,1141,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2023-03']
+balancesheet,data/raw\balancesheet.xlsx,1142,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2024-03']
+balancesheet,data/raw\balancesheet.xlsx,1156,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2013-03']
+balancesheet,data/raw\balancesheet.xlsx,1157,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2014-03']
+balancesheet,data/raw\balancesheet.xlsx,1158,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2015-03']
+balancesheet,data/raw\balancesheet.xlsx,1159,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2016-03']
+balancesheet,data/raw\balancesheet.xlsx,1160,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2017-03']
+balancesheet,data/raw\balancesheet.xlsx,1161,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2018-03']
+balancesheet,data/raw\balancesheet.xlsx,1162,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2019-03']
+balancesheet,data/raw\balancesheet.xlsx,1163,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2020-03']
+balancesheet,data/raw\balancesheet.xlsx,1164,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2021-03']
+balancesheet,data/raw\balancesheet.xlsx,1165,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2022-03']
+balancesheet,data/raw\balancesheet.xlsx,1166,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2023-03']
+balancesheet,data/raw\balancesheet.xlsx,1167,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2024-03']
+balancesheet,data/raw\balancesheet.xlsx,1168,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2024-09']
+cashflow,data/raw\cashflow.xlsx,126,sqlite error: FOREIGN KEY constraint failed [company_id='AGTL' year='2018-03']
+cashflow,data/raw\cashflow.xlsx,127,sqlite error: FOREIGN KEY constraint failed [company_id='AGTL' year='2019-03']
+cashflow,data/raw\cashflow.xlsx,128,sqlite error: FOREIGN KEY constraint failed [company_id='AGTL' year='2020-03']
+cashflow,data/raw\cashflow.xlsx,129,sqlite error: FOREIGN KEY constraint failed [company_id='AGTL' year='2021-03']
+cashflow,data/raw\cashflow.xlsx,130,sqlite error: FOREIGN KEY constraint failed [company_id='AGTL' year='2022-03']
+cashflow,data/raw\cashflow.xlsx,131,sqlite error: FOREIGN KEY constraint failed [company_id='AGTL' year='2023-03']
+cashflow,data/raw\cashflow.xlsx,132,sqlite error: FOREIGN KEY constraint failed [company_id='AGTL' year='2024-03']
+cashflow,data/raw\cashflow.xlsx,1098,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2013-03']
+cashflow,data/raw\cashflow.xlsx,1099,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2014-03']
+cashflow,data/raw\cashflow.xlsx,1100,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2015-03']
+cashflow,data/raw\cashflow.xlsx,1101,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2016-03']
+cashflow,data/raw\cashflow.xlsx,1102,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2017-03']
+cashflow,data/raw\cashflow.xlsx,1103,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2018-03']
+cashflow,data/raw\cashflow.xlsx,1104,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2019-03']
+cashflow,data/raw\cashflow.xlsx,1105,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2020-03']
+cashflow,data/raw\cashflow.xlsx,1106,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2021-03']
+cashflow,data/raw\cashflow.xlsx,1107,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2022-03']
+cashflow,data/raw\cashflow.xlsx,1108,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2023-03']
+cashflow,data/raw\cashflow.xlsx,1109,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='2024-03']
+cashflow,data/raw\cashflow.xlsx,1110,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2013-03']
+cashflow,data/raw\cashflow.xlsx,1111,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2014-03']
+cashflow,data/raw\cashflow.xlsx,1112,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2015-03']
+cashflow,data/raw\cashflow.xlsx,1113,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2016-03']
+cashflow,data/raw\cashflow.xlsx,1114,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2017-03']
+cashflow,data/raw\cashflow.xlsx,1115,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2018-03']
+cashflow,data/raw\cashflow.xlsx,1116,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2019-03']
+cashflow,data/raw\cashflow.xlsx,1117,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2020-03']
+cashflow,data/raw\cashflow.xlsx,1118,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2021-03']
+cashflow,data/raw\cashflow.xlsx,1119,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2022-03']
+cashflow,data/raw\cashflow.xlsx,1120,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2023-03']
+cashflow,data/raw\cashflow.xlsx,1121,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='2024-03']
+cashflow,data/raw\cashflow.xlsx,1122,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2013-03']
+cashflow,data/raw\cashflow.xlsx,1123,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2014-03']
+cashflow,data/raw\cashflow.xlsx,1124,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2015-03']
+cashflow,data/raw\cashflow.xlsx,1125,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2016-03']
+cashflow,data/raw\cashflow.xlsx,1126,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2017-03']
+cashflow,data/raw\cashflow.xlsx,1127,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2018-03']
+cashflow,data/raw\cashflow.xlsx,1128,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2019-03']
+cashflow,data/raw\cashflow.xlsx,1129,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2020-03']
+cashflow,data/raw\cashflow.xlsx,1130,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2021-03']
+cashflow,data/raw\cashflow.xlsx,1131,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2022-03']
+cashflow,data/raw\cashflow.xlsx,1132,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2023-03']
+cashflow,data/raw\cashflow.xlsx,1133,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year='2024-03']
+cashflow,data/raw\cashflow.xlsx,1134,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2012-12']
+cashflow,data/raw\cashflow.xlsx,1135,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2013-12']
+cashflow,data/raw\cashflow.xlsx,1136,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2014-12']
+cashflow,data/raw\cashflow.xlsx,1137,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2015-12']
+cashflow,data/raw\cashflow.xlsx,1138,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2016-12']
+cashflow,data/raw\cashflow.xlsx,1139,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2017-12']
+cashflow,data/raw\cashflow.xlsx,1140,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2018-12']
+cashflow,data/raw\cashflow.xlsx,1141,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2019-12']
+cashflow,data/raw\cashflow.xlsx,1142,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2020-12']
+cashflow,data/raw\cashflow.xlsx,1143,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2021-12']
+cashflow,data/raw\cashflow.xlsx,1144,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2022-12']
+cashflow,data/raw\cashflow.xlsx,1145,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year='2023-12']
+cashflow,data/raw\cashflow.xlsx,1146,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2013-03']
+cashflow,data/raw\cashflow.xlsx,1147,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2014-03']
+cashflow,data/raw\cashflow.xlsx,1148,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2015-03']
+cashflow,data/raw\cashflow.xlsx,1149,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2016-03']
+cashflow,data/raw\cashflow.xlsx,1150,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2017-03']
+cashflow,data/raw\cashflow.xlsx,1151,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2018-03']
+cashflow,data/raw\cashflow.xlsx,1152,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2019-03']
+cashflow,data/raw\cashflow.xlsx,1153,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2020-03']
+cashflow,data/raw\cashflow.xlsx,1154,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2021-03']
+cashflow,data/raw\cashflow.xlsx,1155,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2022-03']
+cashflow,data/raw\cashflow.xlsx,1156,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2023-03']
+cashflow,data/raw\cashflow.xlsx,1157,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year='2024-03']
+cashflow,data/raw\cashflow.xlsx,1158,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2013-03']
+cashflow,data/raw\cashflow.xlsx,1159,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2014-03']
+cashflow,data/raw\cashflow.xlsx,1160,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2015-03']
+cashflow,data/raw\cashflow.xlsx,1161,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2016-03']
+cashflow,data/raw\cashflow.xlsx,1162,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2017-03']
+cashflow,data/raw\cashflow.xlsx,1163,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2018-03']
+cashflow,data/raw\cashflow.xlsx,1164,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2019-03']
+cashflow,data/raw\cashflow.xlsx,1165,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2020-03']
+cashflow,data/raw\cashflow.xlsx,1166,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2021-03']
+cashflow,data/raw\cashflow.xlsx,1167,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2022-03']
+cashflow,data/raw\cashflow.xlsx,1168,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2023-03']
+cashflow,data/raw\cashflow.xlsx,1169,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year='2024-03']
+cashflow,data/raw\cashflow.xlsx,1170,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year='2020-03']
+cashflow,data/raw\cashflow.xlsx,1171,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year='2021-03']
+cashflow,data/raw\cashflow.xlsx,1172,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year='2022-03']
+cashflow,data/raw\cashflow.xlsx,1173,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year='2023-03']
+cashflow,data/raw\cashflow.xlsx,1174,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year='2024-03']
+cashflow,data/raw\cashflow.xlsx,1175,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2013-03']
+cashflow,data/raw\cashflow.xlsx,1176,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2014-03']
+cashflow,data/raw\cashflow.xlsx,1177,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2015-03']
+cashflow,data/raw\cashflow.xlsx,1178,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2016-03']
+cashflow,data/raw\cashflow.xlsx,1179,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2017-03']
+cashflow,data/raw\cashflow.xlsx,1180,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2018-03']
+cashflow,data/raw\cashflow.xlsx,1181,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2019-03']
+cashflow,data/raw\cashflow.xlsx,1182,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2020-03']
+cashflow,data/raw\cashflow.xlsx,1183,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2021-03']
+cashflow,data/raw\cashflow.xlsx,1184,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2022-03']
+cashflow,data/raw\cashflow.xlsx,1185,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2023-03']
+cashflow,data/raw\cashflow.xlsx,1186,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year='2024-03']
+analysis,data/raw\analysis.xlsx,8,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year=None]
+analysis,data/raw\analysis.xlsx,9,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year=None]
+analysis,data/raw\analysis.xlsx,10,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year=None]
+analysis,data/raw\analysis.xlsx,12,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year=None]
+documents,data/raw\documents.xlsx,1457,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year=None]
+documents,data/raw\documents.xlsx,1458,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year=None]
+documents,data/raw\documents.xlsx,1459,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year=None]
+documents,data/raw\documents.xlsx,1460,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year=None]
+documents,data/raw\documents.xlsx,1461,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year=None]
+documents,data/raw\documents.xlsx,1462,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year=None]
+documents,data/raw\documents.xlsx,1463,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year=None]
+documents,data/raw\documents.xlsx,1464,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year=None]
+documents,data/raw\documents.xlsx,1465,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year=None]
+documents,data/raw\documents.xlsx,1466,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year=None]
+documents,data/raw\documents.xlsx,1467,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year=None]
+documents,data/raw\documents.xlsx,1468,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year=None]
+documents,data/raw\documents.xlsx,1469,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year=None]
+documents,data/raw\documents.xlsx,1470,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year=None]
+documents,data/raw\documents.xlsx,1471,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year=None]
+documents,data/raw\documents.xlsx,1472,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year=None]
+documents,data/raw\documents.xlsx,1473,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year=None]
+documents,data/raw\documents.xlsx,1474,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year=None]
+documents,data/raw\documents.xlsx,1475,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year=None]
+documents,data/raw\documents.xlsx,1476,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year=None]
+documents,data/raw\documents.xlsx,1477,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year=None]
+documents,data/raw\documents.xlsx,1478,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year=None]
+documents,data/raw\documents.xlsx,1479,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year=None]
+documents,data/raw\documents.xlsx,1480,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year=None]
+documents,data/raw\documents.xlsx,1481,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year=None]
+documents,data/raw\documents.xlsx,1482,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year=None]
+documents,data/raw\documents.xlsx,1483,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year=None]
+documents,data/raw\documents.xlsx,1484,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year=None]
+documents,data/raw\documents.xlsx,1485,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year=None]
+documents,data/raw\documents.xlsx,1486,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year=None]
+documents,data/raw\documents.xlsx,1487,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year=None]
+documents,data/raw\documents.xlsx,1488,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year=None]
+documents,data/raw\documents.xlsx,1489,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year=None]
+documents,data/raw\documents.xlsx,1490,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year=None]
+documents,data/raw\documents.xlsx,1491,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year=None]
+documents,data/raw\documents.xlsx,1492,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year=None]
+documents,data/raw\documents.xlsx,1493,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year=None]
+documents,data/raw\documents.xlsx,1494,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year=None]
+documents,data/raw\documents.xlsx,1495,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year=None]
+documents,data/raw\documents.xlsx,1496,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year=None]
+documents,data/raw\documents.xlsx,1497,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year=None]
+documents,data/raw\documents.xlsx,1498,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year=None]
+documents,data/raw\documents.xlsx,1499,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year=None]
+documents,data/raw\documents.xlsx,1500,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year=None]
+documents,data/raw\documents.xlsx,1501,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year=None]
+documents,data/raw\documents.xlsx,1502,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year=None]
+documents,data/raw\documents.xlsx,1503,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year=None]
+documents,data/raw\documents.xlsx,1504,sqlite error: FOREIGN KEY constraint failed [company_id='UNITDSPR' year=None]
+documents,data/raw\documents.xlsx,1505,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year=None]
+documents,data/raw\documents.xlsx,1506,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year=None]
+documents,data/raw\documents.xlsx,1507,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year=None]
+documents,data/raw\documents.xlsx,1508,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year=None]
+documents,data/raw\documents.xlsx,1509,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year=None]
+documents,data/raw\documents.xlsx,1510,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year=None]
+documents,data/raw\documents.xlsx,1511,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year=None]
+documents,data/raw\documents.xlsx,1512,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year=None]
+documents,data/raw\documents.xlsx,1513,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year=None]
+documents,data/raw\documents.xlsx,1514,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year=None]
+documents,data/raw\documents.xlsx,1515,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year=None]
+documents,data/raw\documents.xlsx,1516,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year=None]
+documents,data/raw\documents.xlsx,1517,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year=None]
+documents,data/raw\documents.xlsx,1518,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year=None]
+documents,data/raw\documents.xlsx,1519,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year=None]
+documents,data/raw\documents.xlsx,1520,sqlite error: FOREIGN KEY constraint failed [company_id='VBL' year=None]
+documents,data/raw\documents.xlsx,1521,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year=None]
+documents,data/raw\documents.xlsx,1522,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year=None]
+documents,data/raw\documents.xlsx,1523,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year=None]
+documents,data/raw\documents.xlsx,1524,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year=None]
+documents,data/raw\documents.xlsx,1525,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year=None]
+documents,data/raw\documents.xlsx,1526,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year=None]
+documents,data/raw\documents.xlsx,1527,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year=None]
+documents,data/raw\documents.xlsx,1528,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year=None]
+documents,data/raw\documents.xlsx,1529,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year=None]
+documents,data/raw\documents.xlsx,1530,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year=None]
+documents,data/raw\documents.xlsx,1531,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year=None]
+documents,data/raw\documents.xlsx,1532,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year=None]
+documents,data/raw\documents.xlsx,1533,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year=None]
+documents,data/raw\documents.xlsx,1534,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year=None]
+documents,data/raw\documents.xlsx,1535,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year=None]
+documents,data/raw\documents.xlsx,1536,sqlite error: FOREIGN KEY constraint failed [company_id='VEDL' year=None]
+documents,data/raw\documents.xlsx,1537,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year=None]
+documents,data/raw\documents.xlsx,1538,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year=None]
+documents,data/raw\documents.xlsx,1539,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year=None]
+documents,data/raw\documents.xlsx,1540,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year=None]
+documents,data/raw\documents.xlsx,1541,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year=None]
+documents,data/raw\documents.xlsx,1542,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year=None]
+documents,data/raw\documents.xlsx,1543,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year=None]
+documents,data/raw\documents.xlsx,1544,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year=None]
+documents,data/raw\documents.xlsx,1545,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year=None]
+documents,data/raw\documents.xlsx,1546,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year=None]
+documents,data/raw\documents.xlsx,1547,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year=None]
+documents,data/raw\documents.xlsx,1548,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year=None]
+documents,data/raw\documents.xlsx,1549,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year=None]
+documents,data/raw\documents.xlsx,1550,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year=None]
+documents,data/raw\documents.xlsx,1551,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year=None]
+documents,data/raw\documents.xlsx,1552,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year=None]
+documents,data/raw\documents.xlsx,1553,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year=None]
+documents,data/raw\documents.xlsx,1554,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year=None]
+documents,data/raw\documents.xlsx,1555,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year=None]
+documents,data/raw\documents.xlsx,1556,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year=None]
+documents,data/raw\documents.xlsx,1557,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year=None]
+documents,data/raw\documents.xlsx,1558,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year=None]
+documents,data/raw\documents.xlsx,1559,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year=None]
+documents,data/raw\documents.xlsx,1560,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year=None]
+documents,data/raw\documents.xlsx,1561,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year=None]
+documents,data/raw\documents.xlsx,1562,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year=None]
+documents,data/raw\documents.xlsx,1563,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year=None]
+documents,data/raw\documents.xlsx,1564,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year=None]
+documents,data/raw\documents.xlsx,1565,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year=None]
+documents,data/raw\documents.xlsx,1566,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year=None]
+documents,data/raw\documents.xlsx,1567,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year=None]
+documents,data/raw\documents.xlsx,1568,sqlite error: FOREIGN KEY constraint failed [company_id='ZOMATO' year=None]
+documents,data/raw\documents.xlsx,1569,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year=None]
+documents,data/raw\documents.xlsx,1570,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year=None]
+documents,data/raw\documents.xlsx,1571,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year=None]
+documents,data/raw\documents.xlsx,1572,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year=None]
+documents,data/raw\documents.xlsx,1573,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year=None]
+documents,data/raw\documents.xlsx,1574,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year=None]
+documents,data/raw\documents.xlsx,1575,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year=None]
+documents,data/raw\documents.xlsx,1576,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year=None]
+documents,data/raw\documents.xlsx,1577,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year=None]
+documents,data/raw\documents.xlsx,1578,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year=None]
+documents,data/raw\documents.xlsx,1579,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year=None]
+documents,data/raw\documents.xlsx,1580,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year=None]
+documents,data/raw\documents.xlsx,1581,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year=None]
+documents,data/raw\documents.xlsx,1582,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year=None]
+documents,data/raw\documents.xlsx,1583,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year=None]
+documents,data/raw\documents.xlsx,1584,sqlite error: FOREIGN KEY constraint failed [company_id='ZYDUSLIFE' year=None]
+prosandcons,data/raw\prosandcons.xlsx,11,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year=None]
+prosandcons,data/raw\prosandcons.xlsx,12,sqlite error: FOREIGN KEY constraint failed [company_id='WIPRO' year=None]
+financial_ratios,data/supporting\financial_ratios.xlsx,1148,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='Mar 2013']
+financial_ratios,data/supporting\financial_ratios.xlsx,1149,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='Mar 2014']
+financial_ratios,data/supporting\financial_ratios.xlsx,1150,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='Mar 2015']
+financial_ratios,data/supporting\financial_ratios.xlsx,1151,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='Mar 2016']
+financial_ratios,data/supporting\financial_ratios.xlsx,1152,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='Mar 2017']
+financial_ratios,data/supporting\financial_ratios.xlsx,1153,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='Mar 2018']
+financial_ratios,data/supporting\financial_ratios.xlsx,1154,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='Mar 2019']
+financial_ratios,data/supporting\financial_ratios.xlsx,1155,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='Mar 2020']
+financial_ratios,data/supporting\financial_ratios.xlsx,1156,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='Mar 2021']
+financial_ratios,data/supporting\financial_ratios.xlsx,1157,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='Mar 2022']
+financial_ratios,data/supporting\financial_ratios.xlsx,1158,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='Mar 2023']
+financial_ratios,data/supporting\financial_ratios.xlsx,1159,sqlite error: FOREIGN KEY constraint failed [company_id='ULTRACEMCO' year='Mar 2024']
+financial_ratios,data/supporting\financial_ratios.xlsx,1160,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='Mar 2013']
+financial_ratios,data/supporting\financial_ratios.xlsx,1161,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='Mar 2014']
+financial_ratios,data/supporting\financial_ratios.xlsx,1162,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='Mar 2015']
+financial_ratios,data/supporting\financial_ratios.xlsx,1163,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='Mar 2016']
+financial_ratios,data/supporting\financial_ratios.xlsx,1164,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='Mar 2017']
+financial_ratios,data/supporting\financial_ratios.xlsx,1165,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='Mar 2018']
+financial_ratios,data/supporting\financial_ratios.xlsx,1166,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='Mar 2019']
+financial_ratios,data/supporting\financial_ratios.xlsx,1167,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='Mar 2020']
+financial_ratios,data/supporting\financial_ratios.xlsx,1168,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='Mar 2021']
+financial_ratios,data/supporting\financial_ratios.xlsx,1169,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='Mar 2022']
+financial_ratios,data/supporting\financial_ratios.xlsx,1170,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='Mar 2023']
+financial_ratios,data/supporting\financial_ratios.xlsx,1171,sqlite error: FOREIGN KEY constraint failed [company_id='UNIONBANK' year='Mar 2024']
