@@ -29,7 +29,7 @@ SUPP_FILES = [
     ("sectors.xlsx", SUPP_DIR, "sectors", 0, False),
     ("stock_prices.xlsx", SUPP_DIR, "stock_prices", 0, False),
     ("market_cap.xlsx", SUPP_DIR, "market_cap", 0, False),
-    ("financial_ratios.xlsx", SUPP_DIR, "financial_ratios", 0, False),
+    ("financial_ratios.xlsx", SUPP_DIR, "financial_ratios", 0, True),
 ]
 
 LOAD_ORDER = ["companies", "sectors", "profitandloss", "balancesheet", "cashflow",
