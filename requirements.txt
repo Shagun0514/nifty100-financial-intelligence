@@ -18,3 +18,4 @@ seaborn
 jinja2
 requests
 black
+pyyaml

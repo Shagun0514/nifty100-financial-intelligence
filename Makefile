@@ -10,6 +10,16 @@ load:
 ratios:
 	./venv/bin/python -m src.analytics.populate_ratios
 
+screener:
+	./venv/bin/python -m src.screener.engine
+
+peers:
+	./venv/bin/python -m src.analytics.peer
+	./venv/bin/python -m src.reports.peer_comparison_export
+
+radar:
+	./venv/bin/python -m src.reports.radar_charts
+
 test:
 	./venv/bin/pytest tests/ -v
 
