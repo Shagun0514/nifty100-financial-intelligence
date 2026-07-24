@@ -20,6 +20,12 @@ peers:
 radar:
 	./venv/bin/python -m src.reports.radar_charts
 
+valuation:
+	./venv/bin/python -m src.analytics.valuation
+
+dashboard:
+	./venv/bin/streamlit run src/dashboard/app.py
+
 test:
 	./venv/bin/pytest tests/ -v
 
