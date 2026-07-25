@@ -25,14 +25,16 @@ METRIC_LABELS = ["ROE %", "ROCE %", "Net Profit Margin %", "D/E", "Free Cash Flo
 
 
 def _arrow(curr, prev):
+    """Returns (symbol, color) — ASCII-safe symbols since Unicode arrows (↑↓→) don't
+    render reliably in every PDF viewer/font combination."""
     if curr is None or prev is None or pd.isna(curr) or pd.isna(prev) or prev == 0:
-        return "→"
+        return "FLAT", colors.grey
     change_pct = (curr - prev) / abs(prev) * 100
     if change_pct > 2:
-        return "↑"
+        return "UP", colors.HexColor("#2E7D32")
     if change_pct < -2:
-        return "↓"
-    return "→"
+        return "DOWN", colors.HexColor("#C62828")
+    return "FLAT", colors.grey
 
 
 def _fmt(v):
@@ -74,7 +76,9 @@ def build_portfolio_summary(db_path=None, out_path=OUT_PATH):
         for metric, label in zip(METRICS, METRIC_LABELS):
             curr_val = latest.get(metric)
             prev_val = prev.get(metric) if not prev.empty else None
-            table_data.append([label, _fmt(curr_val), _arrow(curr_val, prev_val)])
+            symbol, color = _arrow(curr_val, prev_val)
+            trend_style = ParagraphStyle("Trend", parent=cell_style, textColor=color, alignment=1)
+            table_data.append([label, _fmt(curr_val), Paragraph(f"<b>{symbol}</b>", trend_style)])
 
         t = Table(table_data, colWidths=[8 * cm, 5 * cm, 3 * cm])
         t.setStyle(TableStyle([
@@ -88,7 +92,9 @@ def build_portfolio_summary(db_path=None, out_path=OUT_PATH):
         if i < len(companies) - 1:
             story.append(PageBreak())
 
-    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    dirname = os.path.dirname(out_path)
+    if dirname:
+        os.makedirs(dirname, exist_ok=True)
     doc.build(story)
     print(f"portfolio_summary.pdf: {len(companies)} companies.")
     return out_path
