@@ -26,6 +26,22 @@ valuation:
 dashboard:
 	./venv/bin/streamlit run src/dashboard/app.py
 
+nlp:
+	./venv/bin/python -m src.nlp.parser
+	./venv/bin/python -m src.nlp.pros_cons_generator
+
+cashflow:
+	./venv/bin/python -m src.analytics.cashflow_intelligence
+
+tearsheets:
+	./venv/bin/python -m src.reports.tearsheet
+
+sector-reports:
+	./venv/bin/python -m src.reports.sector_report
+
+portfolio:
+	./venv/bin/python -m src.reports.portfolio_summary
+
 test:
 	./venv/bin/pytest tests/ -v
 

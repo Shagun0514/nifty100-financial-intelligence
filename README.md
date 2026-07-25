@@ -103,6 +103,47 @@ Open `output/load_audit.csv` — it shows rows_read/loaded/rejected per file.
 If a file's real column headers differ slightly from the spec, open that one Excel file,
 check the header row, and tell me the actual column names — I'll adjust the loader.
 
+## Sprint 5 — NLP, Cash Flow Intelligence & PDF Reports
+
+### Run everything
+```
+make nlp             # analysis_parsed.csv, parse_failures.csv, pros_cons_generated.csv
+make cashflow         # cashflow_intelligence.xlsx, distress_alerts.csv, pattern_changes.csv
+make tearsheets       # 92 x 2-page company PDFs -> reports/tearsheets/
+make sector-reports   # 11 sector PDFs -> reports/sector/
+make portfolio        # 1 PDF, one page per company -> reports/portfolio/
+```
+Run `make ratios` first if you haven't — cash flow intelligence and tearsheets both
+depend on `financial_ratios` and `capital_allocation.csv` from Sprint 2.
+
+### What each piece does
+- **NLP parser** (`src/nlp/parser.py`) — extracts `(period_years, value_pct)` from free-text
+  fields in `analysis.xlsx` like `"10 Years: 21%"`, and flags entries where the parsed
+  value diverges >5% from the Ratio Engine's own computed CAGR.
+- **Pros/cons generator** (`src/nlp/pros_cons_generator.py`) — 12 pro rules + 12 con rules
+  (high ROE, debt-free, declining margins, net loss, etc.), each with a confidence score;
+  only entries above 60% confidence are kept.
+- **Cash Flow Intelligence** (`src/analytics/cashflow_intelligence.py`) — CFO quality score
+  (High Quality / Moderate / Accrual Risk), CapEx intensity (Asset Light / Moderate /
+  Capital Intensive), distress signal (CFO<0 and CFF>0), deleveraging flag (CFF<0 and
+  falling debt), and year-over-year capital allocation pattern changes.
+- **Tearsheets** (`src/reports/tearsheet.py`) — 2-page PDF per company: navy header, 6 KPI
+  tiles, revenue/profit and ROE/ROCE charts on page 1; balance sheet composition, cash flow
+  waterfall, pros/cons, and capital allocation badge on page 2. Companies with fewer than
+  3 years of P&L history are skipped and logged to `output/skipped_tearsheets.csv`.
+- **Sector reports** (`src/reports/sector_report.py`) — one PDF per broad sector: median
+  KPI row + every company in that sector with 8 metrics.
+  **Known data note:** generates 10 PDFs, not 11. The spec anticipated 11 broad sectors
+  including "Conglomerates/Other," but the actual `sectors.xlsx` file only contains 10
+  distinct `broad_sector` values — that category isn't present in the real dataset. Not
+  a bug; verified by checking the source file directly.
+- **Portfolio summary** (`src/reports/portfolio_summary.py`) — one page per company,
+  alphabetical by ticker, top 6 KPIs with a trend arrow (↑/↓/→, ±2% flat threshold).
+
+**Documented approximation:** CON-11 ("Net Debt > 3x EBITDA") uses `operating_profit`
+as the EBITDA proxy, matching this project's own glossary definition — there's no
+separately reported EBITDA field in the source data.
+
 ## Day-by-day (what's left for you)
 - Day 01–04: done (env, loader, normaliser, schema)
 - Day 05: `make load` — check counts: companies=92, P&L~1276, BS~1312, CF~1187, stock_prices=5520

@@ -21,3 +21,4 @@ black
 pyyaml
 streamlit
 plotly
+reportlab
