@@ -48,6 +48,8 @@ try:
     val = get_valuation()
     val_latest = val.sort_values("year").groupby("company_id").tail(1) if not val.empty else val
     col6.metric("Median P/E", _safe_median(val_latest["pe_ratio"]) if not val_latest.empty else "N/A")
+st.caption("⚠️ P/E, P/B, market cap, and stock price data in this platform are SIMULATED, "
+           "not real market data — for demonstration purposes only.")
 except Exception:
     col6.metric("Median P/E", "N/A")
 

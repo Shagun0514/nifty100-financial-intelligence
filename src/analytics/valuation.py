@@ -72,6 +72,11 @@ def export_valuation(df, summary_path="output/valuation_summary.xlsx", flags_pat
     wb = Workbook()
     ws = wb.active
     ws.title = "Valuation Summary"
+    ws.append(["⚠️ NOTE: P/E, P/B, EV/EBITDA, and market cap figures are SIMULATED data, "
+               "not real market prices — for demonstration purposes only."])
+    ws.merge_cells(start_row=1, start_column=1, end_row=1, end_column=9)
+    ws.cell(row=1, column=1).font = Font(name="Arial", italic=True, color="C00000")
+    ws.append([])
     arial = Font(name="Arial")
     header_font = Font(name="Arial", bold=True)
     caution_fill = PatternFill("solid", fgColor="FFC7CE")
@@ -79,10 +84,11 @@ def export_valuation(df, summary_path="output/valuation_summary.xlsx", flags_pat
 
     cols = list(df.columns)
     ws.append(cols)
-    for cell in ws[1]:
+    header_row = 3
+    for cell in ws[header_row]:
         cell.font = header_font
     flag_col = cols.index("flag") + 1
-    for r_idx, (_, row) in enumerate(df.iterrows(), start=2):
+    for r_idx, (_, row) in enumerate(df.iterrows(), start=header_row + 1):
         ws.append([row[c] for c in cols])
         for cell in ws[r_idx]:
             cell.font = arial

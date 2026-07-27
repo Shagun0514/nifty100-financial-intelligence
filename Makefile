@@ -80,5 +80,8 @@ api:
 	echo "api target placeholder - Sprint 4"
 
 clean:
-	rm -f nifty100.db
-	rm -f output/*.csv
+	find . -name "*.pyc" -delete
+	find . -name "__pycache__" -type d -exec rm -rf {} + 2>/dev/null || true
+	rm -f .pytest_cache -r
+	rm -f output/*.csv output/*.log
+	# NOTE: nifty100.db is intentionally NOT removed here — database remains untouched

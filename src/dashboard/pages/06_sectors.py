@@ -50,7 +50,8 @@ fig = px.scatter(merged, x="sales", y="return_on_equity_pct",
                   labels={"sales": "Revenue (Cr)", "return_on_equity_pct": "ROE (%)"})
 fig.update_layout(margin=dict(l=10, r=10, t=30, b=10))
 st.plotly_chart(fig, width='stretch')
-st.caption("Bubble size = market cap, colour = sub-sector.")
+st.caption("Bubble size = market cap, colour = sub-sector. "
+           "⚠️ Market cap and price data are SIMULATED, not real market data.")
 
 st.divider()
 st.subheader("Sector Median KPIs")
