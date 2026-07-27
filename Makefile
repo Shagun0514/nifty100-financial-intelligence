@@ -42,8 +42,33 @@ sector-reports:
 portfolio:
 	./venv/bin/python -m src.reports.portfolio_summary
 
+clustering:
+	./venv/bin/python -m src.analytics.clustering
+
+portfolio-stats:
+	./venv/bin/python -m src.analytics.portfolio_stats
+
+api:
+	./venv/bin/uvicorn src.api.main:app --port 8000
+
+openapi:
+	./venv/bin/python -m src.api.export_openapi
+	./venv/bin/python -m src.api.export_postman
+
+loadtest:
+	./venv/bin/python -m src.api.load_test
+
+analyst-guide:
+	./venv/bin/python -m src.reports.analyst_guide
+
+acceptance:
+	./venv/bin/python -m src.reports.acceptance_checklist
+
 test:
 	./venv/bin/pytest tests/ -v
+
+test-html:
+	./venv/bin/pytest tests/ --html=reports/pytest_report.html --self-contained-html
 
 report:
 	./venv/bin/python -m src.etl.validator

@@ -22,3 +22,9 @@ pyyaml
 streamlit
 plotly
 reportlab
+scikit-learn
+fastapi
+uvicorn
+httpx
+pytest-html
+pypdf

@@ -184,3 +184,12 @@ CREATE TABLE IF NOT EXISTS peer_percentiles (
     PRIMARY KEY (company_id, peer_group_name, metric, year),
     FOREIGN KEY (company_id) REFERENCES companies(id)
 );
+
+-- Performance indexes (Sprint 6, Day 43) — company_id/year lookups are the most
+-- common query pattern across the API and dashboard.
+CREATE INDEX IF NOT EXISTS idx_pl_company_year ON profitandloss(company_id, year);
+CREATE INDEX IF NOT EXISTS idx_bs_company_year ON balancesheet(company_id, year);
+CREATE INDEX IF NOT EXISTS idx_cf_company_year ON cashflow(company_id, year);
+CREATE INDEX IF NOT EXISTS idx_fr_company_year ON financial_ratios(company_id, year);
+CREATE INDEX IF NOT EXISTS idx_sp_company_date ON stock_prices(company_id, date);
+CREATE INDEX IF NOT EXISTS idx_mc_company_year ON market_cap(company_id, year);

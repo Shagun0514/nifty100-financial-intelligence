@@ -78,8 +78,30 @@ def test_empty_history_returns_empty():
     assert generate_pros_cons_for_company(pd.DataFrame(), "IT") == []
 
 
-def test_all_confidence_scores_above_threshold():
+def test_all_thresholded_entries_above_threshold():
+    """Entries NOT flagged below_threshold must genuinely exceed the confidence cutoff."""
     hist = _base_hist()
     hist["debt_to_equity"] = [3.0] * 6
     entries = generate_pros_cons_for_company(hist, "Industrials")
-    assert all(e["confidence_pct"] > CONFIDENCE_THRESHOLD for e in entries)
+    for e in entries:
+        if not e["below_threshold"]:
+            assert e["confidence_pct"] > CONFIDENCE_THRESHOLD
+
+
+def test_guaranteed_coverage_backfills_missing_con():
+    """A very strong company that triggers no genuine 'con' rule still gets one con,
+    backfilled from the fallback signal and clearly flagged below_threshold=True."""
+    hist = _base_hist()
+    # tuned to be uniformly excellent: shouldn't naturally trigger any CON-* rule
+    entries = generate_pros_cons_for_company(hist, "Information Technology")
+    cons = [e for e in entries if e["type"] == "con"]
+    assert len(cons) >= 1
+    assert any(e["below_threshold"] for e in cons)
+
+
+def test_guaranteed_coverage_every_company_has_pro_and_con():
+    hist = _base_hist()
+    hist["debt_to_equity"] = [3.0] * 6  # push it toward triggering real cons too
+    entries = generate_pros_cons_for_company(hist, "Industrials")
+    types_present = {e["type"] for e in entries}
+    assert "pro" in types_present and "con" in types_present

@@ -1,3 +1,34 @@
+# Nifty 100 Financial Intelligence Platform
+
+A complete financial analytics platform for 92 Nifty 100 companies: a validated SQLite
+database, a 50+ KPI ratio engine, an investment screener, peer comparison, an 8-screen
+Streamlit dashboard, automated PDF reporting, KMeans company clustering, and a 16-endpoint
+REST API — built across 6 sprints, 170+ passing tests.
+
+## Full pipeline, start to finish
+```
+python -m venv venv
+venv\Scripts\pip install -r requirements.txt
+copy .env.example .env
+
+venv\Scripts\python -m src.etl.loader              REM Sprint 1: build the database
+venv\Scripts\python -m src.analytics.populate_ratios REM Sprint 2: compute 50+ KPIs
+venv\Scripts\python -m src.screener.engine          REM Sprint 3: screener + composite scores
+venv\Scripts\python -m src.analytics.peer            REM Sprint 3: peer percentiles
+venv\Scripts\python -m src.analytics.valuation       REM Sprint 4: valuation flags
+venv\Scripts\python -m src.nlp.pros_cons_generator   REM Sprint 5: auto pros/cons
+venv\Scripts\python -m src.analytics.cashflow_intelligence REM Sprint 5: cash flow scoring
+venv\Scripts\python -m src.reports.tearsheet         REM Sprint 5: 91 tearsheet PDFs
+venv\Scripts\python -m src.analytics.clustering      REM Sprint 6: KMeans archetypes
+
+venv\Scripts\python -m pytest tests\ -v              REM 170+ tests, should all pass
+venv\Scripts\streamlit run src\dashboard\app.py       REM interactive dashboard, port 8501
+venv\Scripts\uvicorn src.api.main:app --port 8000     REM REST API, docs at /docs
+```
+Each sprint section below has the full detail and additional outputs for that stage.
+
+---
+
 # Sprint 1 – Data Foundation (nifty100.db)
 
 Matches your uploaded spec (`Nifty100_Project_Document_FINAL.pdf`) and Drive folders
@@ -143,6 +174,44 @@ depend on `financial_ratios` and `capital_allocation.csv` from Sprint 2.
 **Documented approximation:** CON-11 ("Net Debt > 3x EBITDA") uses `operating_profit`
 as the EBITDA proxy, matching this project's own glossary definition — there's no
 separately reported EBITDA field in the source data.
+
+## Sprint 6 — Clustering, REST API & Final QA
+
+### Run everything
+```
+make clustering       # KMeans -> output/cluster_labels.csv, reports/elbow_plot.png
+make portfolio-stats   # correlation heatmap, outlier report, P10-P90 stats
+make api               # starts FastAPI on localhost:8000 (docs at /docs)
+make openapi           # exports docs/openapi.json + docs/postman_collection.json
+make loadtest          # 10 concurrent screener requests -> output/perf_notes.md
+make analyst-guide     # docs/analyst_guide.pdf (10+ pages)
+make acceptance        # runs all 20 acceptance gates -> docs/acceptance_checklist.pdf
+make test-html         # pytest with HTML report -> reports/pytest_report.html
+```
+
+### What's new
+- **Clustering** (`src/analytics/clustering.py`) — KMeans, 5 clusters, features imputed by
+  sector median before scaling. Cluster names are assigned by simple rule-based heuristics
+  (e.g. high ROE + low debt + growth → "High-Quality Compounders"); per the original spec,
+  these names are meant to be reviewed and adjusted by a human once you see which actual
+  companies land in each cluster — one cluster may fall through to a generic "Cluster N"
+  label if none of the heuristic rules match its profile, which is expected, not a bug.
+- **Portfolio stats** (`src/analytics/portfolio_stats.py`) — correlation heatmap (10 KPIs),
+  per-sector Z-score outlier detection, P10-P90 percentile table.
+- **REST API** (`src/api/`) — FastAPI server, 16 endpoints across 8 routers (health,
+  companies, screener, sectors, peers, valuation, portfolio, documents), CORS enabled,
+  request-logging middleware, and a custom handler that returns HTTP 400 (not FastAPI's
+  default 422) for invalid query parameters, matching the spec.
+- **Acceptance checklist** (`src/reports/acceptance_checklist.py`) — programmatically
+  re-verifies as many of the 20 acceptance gates as can be checked automatically (row
+  counts, FK integrity, file existence, API health, test suite status) and generates a
+  colour-coded PDF. A handful of gates (CAGR spot-checks, visual PDF review, dashboard
+  load-time) are inherently manual and are marked "MANUAL CHECK" rather than guessed at.
+
+### Known, documented gaps (carried from earlier sprints, still accurate)
+- 92 of 100 Nifty 100 companies (data availability filter applied upstream)
+- 10 broad sectors in the actual data, not 11 (no "Conglomerates/Other" category present)
+- TTM (Trailing Twelve Months) rows correctly excluded from annual tables throughout
 
 ## Day-by-day (what's left for you)
 - Day 01–04: done (env, loader, normaliser, schema)

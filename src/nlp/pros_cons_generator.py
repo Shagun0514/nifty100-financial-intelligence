@@ -43,15 +43,26 @@ def _consecutive_negative(series, n):
 def generate_pros_cons_for_company(hist, sector):
     """hist: DataFrame of financial_ratios rows for one company (sorted by year), merged with
     net_profit/sales/total_assets/borrowings from P&L/BS.
-    Returns list of dicts: {type, rule_id, text, confidence_pct}."""
+    Returns list of dicts: {type, rule_id, text, confidence_pct, below_threshold}.
+
+    Every rule that fires is recorded, even below the 60% confidence cutoff. Rules above
+    the cutoff are always included. If a company ends up with zero entries on one side
+    (e.g. a strong company with no qualifying "con"), the single best-scoring candidate
+    for that side is backfilled and flagged below_threshold=True, so every company gets
+    at least one pro and one con (matching AC-16) without silently lowering the bar for
+    everyone else.
+    """
     if hist.empty:
         return []
     latest = hist.iloc[-1]
     results = []
+    all_candidates = []
 
     def add(type_, rule_id, text, confidence):
+        all_candidates.append({"type": type_, "rule_id": rule_id, "text": text, "confidence_pct": confidence})
         if confidence > CONFIDENCE_THRESHOLD:
-            results.append({"type": type_, "rule_id": rule_id, "text": text, "confidence_pct": confidence})
+            results.append({"type": type_, "rule_id": rule_id, "text": text, "confidence_pct": confidence,
+                            "below_threshold": False})
 
     roe = hist["return_on_equity_pct"]
     roe_last3 = roe.dropna().tail(3)
@@ -141,6 +152,28 @@ def generate_pros_cons_for_company(hist, sector):
     if pd.notna(rev_c) and rev_c < 5:
         add("con", "CON-12", "Revenue growing at below 5% over 5 years lags inflation and suggests limited business momentum", 75)
 
+    # Fallback signals: always evaluated (not gated on a threshold condition) so there's
+    # always at least one candidate on each side to draw from below. These use the same
+    # metrics as PRO-01/CON-01 but scale continuously rather than requiring a hard cutoff.
+    de_val = latest.get("debt_to_equity")
+    if pd.notna(de_val):
+        add("con", "CON-FALLBACK", f"Debt-to-equity of {de_val:.2f} is a general leverage level worth monitoring "
+            f"alongside sector peers.", min(95, max(5, de_val * 20)))
+    roe_val = latest.get("return_on_equity_pct")
+    if pd.notna(roe_val):
+        add("pro", "PRO-FALLBACK", f"Return on equity of {roe_val:.1f}% reflects the company's baseline capital "
+            f"efficiency.", min(95, max(5, roe_val * 3)))
+
+    # Guarantee coverage (AC-16): if a company still has zero pros or zero cons after all
+    # 24 rules + fallbacks, backfill with the single best-scoring candidate for that side,
+    # flagged below_threshold=True so it's clearly distinguishable from a genuine >60% signal.
+    for needed_type in ("pro", "con"):
+        if not any(r["type"] == needed_type for r in results):
+            candidates = [c for c in all_candidates if c["type"] == needed_type]
+            if candidates:
+                best = max(candidates, key=lambda c: c["confidence_pct"])
+                results.append({**best, "below_threshold": True})
+
     return results
 
 
@@ -166,7 +199,7 @@ def run(db_path=None, out_path="output/pros_cons_generated.csv"):
         for e in entries:
             all_rows.append({"company_id": cid, **e})
 
-    df = pd.DataFrame(all_rows, columns=["company_id", "type", "rule_id", "text", "confidence_pct"])
+    df = pd.DataFrame(all_rows, columns=["company_id", "type", "rule_id", "text", "confidence_pct", "below_threshold"])
     os.makedirs("output", exist_ok=True)
     df.to_csv(out_path, index=False)
 
