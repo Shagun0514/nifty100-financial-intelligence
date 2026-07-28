@@ -3,7 +3,19 @@
 A complete financial analytics platform for 92 Nifty 100 companies: a validated SQLite
 database, a 50+ KPI ratio engine, an investment screener, peer comparison, an 8-screen
 Streamlit dashboard, automated PDF reporting, KMeans company clustering, and a 16-endpoint
-REST API — built across 6 sprints, 170+ passing tests.
+REST API — built across 6 sprints, 174 passing tests.
+
+## Project Status: Complete ✅
+
+All 6 sprints delivered and verified. Run `run_all.bat` (Windows) to rebuild the entire
+pipeline from scratch and regenerate every deliverable, including a fresh acceptance report.
+
+| | |
+|---|---|
+| **Tests** | 174 passing (`venv\Scripts\python -m pytest tests\ -v`) |
+| **Acceptance gates** | 20 total — see `docs/acceptance_checklist.pdf` for the current run. Most gates are checked programmatically (row counts, FK integrity, file existence, API health, full test suite); a handful are inherently manual (visual PDF review, dashboard load-time, spot-check comparisons against a hand-built spreadsheet) and are clearly marked "MANUAL CHECK" rather than guessed at. |
+| **Known, documented data realities** | 92 of 100 Nifty 100 companies (data availability filter applied upstream) · 10 broad sectors, not 11 (no "Conglomerates/Other" category in the source data) · 91 of 92 tearsheets (1 company has only 2 years of history, below the 3-year minimum, and is logged to `output/skipped_tearsheets.csv`) · TTM (Trailing Twelve Months) rows correctly excluded from all annual tables |
+| **Simulated data** | `stock_prices` and `market_cap` (and everything derived from them — P/E, P/B, EV/EBITDA) are simulated, not real market data. Labelled as such in the dashboard, in `valuation_summary.xlsx`, and in the analyst guide. |
 
 ## Full pipeline, start to finish
 ```
